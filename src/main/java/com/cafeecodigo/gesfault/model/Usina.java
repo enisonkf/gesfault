@@ -18,4 +18,44 @@ public class Usina {
     private Endereco enderecoUsina;
     private Usuario gerente;
     private ArrayList<PecaEstoque> estoqueUsina;
+
+    public UUID getIdUsina() {
+        return idUsina;
+    }
+
+    public void setIdUsina(UUID idUsina) {
+        this.idUsina = idUsina;
+    }
+
+    public String getDescricaoUsina() {
+        return descricaoUsina;
+    }
+
+    public void setDescricaoUsina(String descricaoUsina) {
+        this.descricaoUsina = descricaoUsina;
+    }
+
+    public Endereco getEnderecoUsina() {
+        return enderecoUsina;
+    }
+
+    public void setEnderecoUsina(Endereco enderecoUsina) {
+        this.enderecoUsina = enderecoUsina;
+    }
+
+    public Usuario getGerente() {
+        return gerente;
+    }
+
+    public void setGerente(Usuario gerente) {
+        this.gerente = gerente;
+    }
+
+    public ArrayList<PecaEstoque> getEstoqueUsina() {
+        return estoqueUsina;
+    }
+
+    public void setEstoqueUsina(ArrayList<PecaEstoque> estoqueUsina) {
+        this.estoqueUsina = estoqueUsina;
+    }
 }

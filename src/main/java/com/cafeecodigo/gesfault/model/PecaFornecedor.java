@@ -16,4 +16,37 @@ public class PecaFornecedor {
     private Peca peca;
     private Fornecedor fornecedor;
     private double preco;
+
+    public UUID getIdPecaFornecedor() {
+        return idPecaFornecedor;
+    }
+
+    public void setIdPecaFornecedor(UUID idPecaFornecedor) {
+        this.idPecaFornecedor = idPecaFornecedor;
+    }
+
+    public Peca getPeca() {
+        return peca;
+    }
+
+    public void setPeca(Peca peca) {
+        this.peca = peca;
+    }
+
+    public Fornecedor getFornecedor() {
+        return fornecedor;
+    }
+
+    public void setFornecedor(Fornecedor fornecedor) {
+        this.fornecedor = fornecedor;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+    
 }

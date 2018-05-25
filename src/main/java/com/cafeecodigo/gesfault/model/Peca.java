@@ -15,5 +15,30 @@ public class Peca {
     private UUID idPeca;
     private String descricaoPeca;
     private String imagem;
+
+    public UUID getIdPeca() {
+        return idPeca;
+    }
+
+    public void setIdPeca(UUID idPeca) {
+        this.idPeca = idPeca;
+    }
+
+    public String getDescricaoPeca() {
+        return descricaoPeca;
+    }
+
+    public void setDescricaoPeca(String descricaoPeca) {
+        this.descricaoPeca = descricaoPeca;
+    }
+
+    public String getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(String imagem) {
+        this.imagem = imagem;
+    }
+    
     
 }
