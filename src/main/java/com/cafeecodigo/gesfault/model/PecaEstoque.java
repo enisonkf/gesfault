@@ -40,5 +40,4 @@ public class PecaEstoque {
         this.quantidade = quantidade;
     }
     
-    
 }
